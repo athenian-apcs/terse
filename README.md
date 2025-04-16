@@ -1,9 +1,7 @@
-# Dice Methods
+# Stream Reductions
 
-In this assignment, you'll be writing some code to practice using Streams in Java.
-Each of your functions should just be a single statement. You don't need any loops! The number of intermediate
-operations allowed for each function is listed above it. Note that these do not include the call to stream() or
-any terminal operations such as collect() or allMatch().
+In this assignment, you'll be writing some code to get more practice using Streams, Optionals, and Comparators in Java.
+**Do not use loops in any of your solutions!**
 
 <br />
 <br />
