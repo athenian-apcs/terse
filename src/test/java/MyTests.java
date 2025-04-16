@@ -31,7 +31,7 @@ public class MyTests {
 
     @Test
     public void testCountStringsWithLength() {
-        assertEquals(2, MyMain.countStringsWithLength(Arrays.asList("cat", "dog", "mouse", "rat"), 3));
+        assertEquals(3, MyMain.countStringsWithLength(Arrays.asList("cat", "dog", "mouse", "rat"), 3));
         assertEquals(0, MyMain.countStringsWithLength(Arrays.asList("hello", "world"), 3));
         assertEquals(0, MyMain.countStringsWithLength(Collections.emptyList(), 5));
         assertEquals(3, MyMain.countStringsWithLength(Arrays.asList("a", "b", "c", "def"), 1));
@@ -46,8 +46,8 @@ public class MyTests {
 
     @Test
     public void testFindLongestStrings() {
-        assertEquals(Arrays.asList("elephant", "giraffe"),
-                MyMain.findLongestStrings(Arrays.asList("cat", "dog", "elephant", "giraffe", "mouse")));
+        assertEquals(Arrays.asList("elephant", "platypus"),
+                MyMain.findLongestStrings(Arrays.asList("cat", "dog", "elephant", "platypus", "mouse")));
         assertEquals(Arrays.asList("apple"),
                 MyMain.findLongestStrings(Arrays.asList("apple", "cat", "dog")));
         assertEquals(Collections.emptyList(),
