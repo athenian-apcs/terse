@@ -1,7 +1,6 @@
-# Stream Reductions
+# Concise Coding
 
-In this assignment, you'll be writing some code to get more practice using Streams, Optionals, and Comparators in Java.
-**Do not use loops in any of your solutions!**
+In this assignment, you'll be getting some practice writing simplified code. Every function should be solved with just one line of code!
 
 <br />
 <br />
